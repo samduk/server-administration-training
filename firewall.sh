@@ -40,10 +40,6 @@ $IPT -A INPUT -p tcp --dport 25 -m state --state NEW -m iprange --src-range 192.
 $IPT -A INPUT -p tcp --dport 25 -m state --state NEW -s 192.168.56.81 -j ACCEPT #Tsetan la
 $IPT -A INPUT -p tcp --dport 25 -m state --state NEW -s 192.168.56.82 -j ACCEPT #Rinchen la
 
-#SMTP For Chatrel Staffs 
-$IPT -A INPUT -p tcp --dport 25 -m state --state NEW -s 192.168.56.32 -j ACCEPT #For Tashi la 
-$IPT -A INPUT -p tcp --dport 25 -m state --state NEW -s 192.168.56.33 -j ACCEPT #For Kunsang la 
-$IPT -A INPUT -p tcp --dport 25 -m state --state NEW -s 192.168.56.34 -j ACCEPT #For Kelsang la 
 
 
 #HTTP which are allow 
