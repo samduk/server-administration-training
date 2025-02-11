@@ -1,9 +1,5 @@
 # server-administration-training
-This repository contains the training materials 
+- This repository contains the training materials and essential commands. 
+- We will also build tools in this training 
 
-Markdown - Documentation 
 
-```
-sudo adduser name_of_user 
-sudo usermod -aG sudo name_of_user 
-```
